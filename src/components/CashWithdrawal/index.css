@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card-container {
+  background-color: #150b3e;
+  width: 40%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.name-container {
+  display: flex;
+}
+.logo-container {
+  background-color: #c7d2fe;
+  border-radius: 40px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding: 0px;
+  margin: 20px;
+}
+.para-s {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  align-self: center;
+}
+.name-para {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.name-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+}
+.balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 60px;
+}
+.money {
+  color: #d4d2db;
+  font-size: 34px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-right: 60px;
+}
+.money-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.items-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  margin-left: 80px;
+}
+.choose {
+  color: #585076;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-left: 60px;
+}
+.withdraw {
+  color: #c4c4c4;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-left: 60px;
+}
+.rupee {
+  color: #585076;
+  font-size: 14px;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 60px;
+  margin-top: -30px;
+}

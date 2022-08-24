@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.change-button {
+  width: 180px;
+  height: 40px;
+  background-color: #382f5a;
+  color: #c7d2fe;
+  border: 1px solid #c7d2fe;
+  margin-right: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
